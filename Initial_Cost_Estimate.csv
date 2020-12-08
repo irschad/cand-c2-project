@@ -9,7 +9,7 @@ My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Internet
 My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,4913.704,58964.45,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Instance type (db.m5.4xlarge)"
 My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,1.04,12.48,USD,"Number of EC2 instances (2), Number of EIPs per instance (1), Number of EIP remaps (10)"
 ,,,,,,,,
-Monthly Cost,,,,,9085.994,,,
+,,,,Total=,9085.994,,,
 ,,,,,,,,
 Acknowledgement,,,,,,,,
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
