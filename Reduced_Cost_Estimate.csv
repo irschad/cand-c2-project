@@ -9,6 +9,8 @@ My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Internet
 My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2994.826,35937.91,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Instance type (db.m5.xlarge)"
 My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,1.04,12.48,USD,"Number of EC2 instances (2), Number of EIPs per instance (1), Number of EIP remaps (10)"
 ,,,,,,,,
+,,,,Total=,6220.596,,,
+,,,,,,,,
 "Changes made:  Reduced RDS costs by moving to smaller instance from db.m5.4xlarge to db.m5.xlarge. Similarly, reduced EC2 costs by moving to t3.xlarge from t3.2xlarge.  In case of VPC, reduced cost by having only 1 NAT Gateway instead of 2 NAT Gateways. ",,,,,,,,
 ,,,,,,,,
 Acknowledgement,,,,,,,,
