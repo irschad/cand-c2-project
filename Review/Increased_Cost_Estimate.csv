@@ -1,0 +1,18 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,4704.85,56458.2,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,6058.2,72698.4,USD,"Operating system (Linux), Quantity (12), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (60 GB), Instance type (m5dn.4xlarge)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,987.3,11847.6,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,1591.82,19101.84,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Internet (4 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,5143.44,61721.28,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No UpFront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (60 GB)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,1.08,12.96,USD,"Number of EC2 instances (2), Number of EIPs per instance (1), Number of EIP remaps (10)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,584.5,7014,USD,"Hosted Zones (1), Basic Checks Within AWS (100)"
+My Estimate,US East (N. Virginia),,DynamoDB provisioned capacity,1560,366.23,5954.76,USD,"Average item size (all attributes) (10 KB), Write reserved capacity term (1 year), Read reserved capacity term (1 year), Data storage size (500 GB)"
+,,,,,,,,
+,,,,,Annual cost,234809.04,USD,
+,,,,,Monthly cost,19567.42,USD,
+,,,,,,,,
+"Rationale: Increased EC2 cost by moving to larger instances (i.e. to m5dn.2xlarge from t3.2xlarge). Also, increased RDS cost by changing instance size to db.m5.8xlarge from db.m5.4xlarge. Increased load balancer cost by changing dimentions for LCU pricing. Also, increased S3 cost by adding data transfer cost and increasing S3 standard storage capacity.",,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
