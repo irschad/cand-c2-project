@@ -1,0 +1,21 @@
+Part 1: 
+Assign the Elastic IP to the NAT gateway.
+You can add a Route53 service to your diagram. So the clients will be routed to the Route53 service first then the request will reach the CloudFront distribution. From the CloudFront distribution you will need to have 2 paths. Either to the S3 (request for a static file) or to the ELB (request for dynamic content).
+Show the communication between the components (add lines to explain the communication between the RDS instances, the private subnets and the NAT Gateway, the web servers and the internal load balancer.
+Make sure that all services in the diagram include a label to indicate the type of service and any necessary parameters (e.g. size, location).
+Add DynamoDB database to store the sessions data
+Review this resource for further reading and enhancement: https://www.techtruffle.com/blog/aws/three-tier-architecture/
+
+Part 2: 
+The authentication part should come first before the request is routed to the API gateway
+Review this reference https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
+
+Estimate Costs:
+Please review and add the missing services to the architecture and then re-visit this part.
+
+
+AWS Monitoring & Billing:
+The following events are missing :
+A user named Accountant is created and assigned to the Reviewers group.
+A group named Reviewers has been created and has the Billing privilege.
+Both users have AWS Console access
